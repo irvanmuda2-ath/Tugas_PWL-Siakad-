@@ -66,27 +66,6 @@ Berfungsi untuk mengakhiri sesi pengguna dan keluar dari sistem secara aman.
 * Migration
 * Seeder
 
----
-
-## Dokumentasi Tampilan Sistem
-
-Seluruh dokumentasi tampilan aplikasi dapat ditemukan pada folder:
-
-`/screenshots`
-
-Daftar screenshot yang tersedia:
-
-* login.png
-* dashboard.png
-* dosen.png
-* mahasiswa.png
-* matakuliah.png
-* jadwal.png
-* krs.png
-* erd.png
-
----
-
 ## Tujuan Pengembangan
 
 Aplikasi ini dikembangkan sebagai implementasi pembelajaran Pemrograman Web Lanjut dengan menerapkan konsep MVC (Model-View-Controller), manajemen basis data relasional, autentikasi pengguna, dan pengelolaan data akademik berbasis web menggunakan framework Laravel.
