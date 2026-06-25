@@ -2,74 +2,91 @@
 
 ## Deskripsi Aplikasi
 
-SIAKAD (Sistem Informasi Akademik) merupakan aplikasi berbasis Laravel yang digunakan untuk mengelola data akademik secara sederhana. Aplikasi ini menyediakan pengelolaan data dosen, mahasiswa, mata kuliah, jadwal perkuliahan, dan Kartu Rencana Studi (KRS). Sistem dibangun menggunakan Laravel dengan fitur Authentication, Middleware, Eloquent ORM, Relationship, Migration, dan Seeder.
+Sistem Informasi Akademik (SIAKAD) adalah aplikasi berbasis web yang dikembangkan menggunakan framework Laravel untuk membantu pengelolaan data akademik secara terintegrasi. Aplikasi ini menyediakan fitur pengelolaan data dosen, mahasiswa, mata kuliah, jadwal perkuliahan, serta Kartu Rencana Studi (KRS). Sistem menerapkan konsep Authentication, Middleware, Eloquent ORM, Migration, Seeder, dan Relationship Database untuk mendukung pengelolaan data yang terstruktur dan efisien.
 
+## Informasi Login
 
-## Akun Login
+### Administrator
 
-### Admin
-Email : admin@gmail.com
-Password : password
+* Email : [admin@gmail.com](mailto:admin@gmail.com)
+* Password : password
 
 ### Mahasiswa
-Email : mahasiswa@gmail.com
-Password : password
 
+* Email : [mahasiswa@gmail.com](mailto:mahasiswa@gmail.com)
+* Password : password
 
-## Link Hosting
+## Link Deployment
 
-URL Aplikasi :
-https://nurarifah.ifalgorithm24.web.id/
+**URL Aplikasi:**
+https://irvanmuda.ifa2024.web.id/
 
-## Penjelasan Fungsi Halaman
+## Fitur dan Fungsi Sistem
 
-### 1. Login
-Halaman login digunakan untuk masuk ke dalam sistem menggunakan email dan password yang telah terdaftar.
+### 1. Halaman Login
+
+Digunakan untuk melakukan autentikasi pengguna sebelum mengakses sistem dengan memasukkan email dan password yang valid.
 
 ### 2. Dashboard
-Halaman dashboard menampilkan ringkasan jumlah data dosen, mahasiswa, mata kuliah, jadwal, dan KRS yang terdapat dalam sistem.
 
-### 3. Data Dosen
-Digunakan untuk mengelola data dosen. Admin dapat menambah, mengubah, menghapus, dan melihat data dosen.
+Menyajikan informasi ringkas mengenai jumlah data dosen, mahasiswa, mata kuliah, jadwal perkuliahan, dan KRS yang tersimpan dalam sistem.
 
-### 4. Data Mahasiswa
-Digunakan untuk mengelola data mahasiswa. Admin dapat menambah, mengubah, menghapus, dan melihat data mahasiswa.
+### 3. Manajemen Data Dosen
 
-### 5. Data Mata Kuliah
-Digunakan untuk mengelola data mata kuliah yang tersedia, meliputi kode mata kuliah, nama mata kuliah, dan jumlah SKS.
+Menyediakan fitur untuk menambah, melihat, mengubah, dan menghapus data dosen yang terdaftar.
 
-### 6. Data Jadwal
-Digunakan untuk mengelola jadwal perkuliahan berdasarkan mata kuliah, dosen, kelas, hari, dan jam perkuliahan.
+### 4. Manajemen Data Mahasiswa
 
-### 7. Data KRS
-Digunakan untuk mengelola pengambilan mata kuliah oleh mahasiswa. Data KRS terhubung dengan data mahasiswa dan mata kuliah.
+Digunakan untuk mengelola informasi mahasiswa, termasuk proses penambahan, pembaruan, penghapusan, dan pencarian data.
+
+### 5. Manajemen Mata Kuliah
+
+Menampilkan serta mengelola data mata kuliah yang mencakup kode mata kuliah, nama mata kuliah, dan jumlah SKS.
+
+### 6. Manajemen Jadwal Perkuliahan
+
+Memfasilitasi pengaturan jadwal kuliah berdasarkan mata kuliah, dosen pengampu, kelas, hari, dan jam perkuliahan.
+
+### 7. Manajemen KRS
+
+Memungkinkan mahasiswa melakukan pengambilan mata kuliah serta menampilkan data KRS yang terhubung dengan data mahasiswa dan mata kuliah.
 
 ### 8. Logout
-Digunakan untuk keluar dari aplikasi dan mengakhiri sesi pengguna.
 
+Berfungsi untuk mengakhiri sesi pengguna dan keluar dari sistem secara aman.
 
 ## Teknologi yang Digunakan
 
-- Laravel
-- MySQL
-- Bootstrap/Tailwind CSS
-- Eloquent ORM
-- Middleware
-- Migration
-- Seeder
+* Laravel Framework
+* PHP
+* MySQL Database
+* Bootstrap / Tailwind CSS
+* Eloquent ORM
+* Middleware
+* Migration
+* Seeder
 
+---
 
-## Screenshots
+## Dokumentasi Tampilan Sistem
 
-Screenshot setiap halaman aplikasi disimpan pada folder:
+Seluruh dokumentasi tampilan aplikasi dapat ditemukan pada folder:
 
-screenshots/
+`/screenshots`
 
-- dashboard.png
-- dosen.png
-- erd.png 
-- jadwal.png
-- krs.png
-- login.png
-- mahasiswa.png
-- matakuliah.png
+Daftar screenshot yang tersedia:
+
+* login.png
+* dashboard.png
+* dosen.png
+* mahasiswa.png
+* matakuliah.png
+* jadwal.png
+* krs.png
+* erd.png
+
+---
+
+## Tujuan Pengembangan
+
+Aplikasi ini dikembangkan sebagai implementasi pembelajaran Pemrograman Web Lanjut dengan menerapkan konsep MVC (Model-View-Controller), manajemen basis data relasional, autentikasi pengguna, dan pengelolaan data akademik berbasis web menggunakan framework Laravel.
